@@ -56,7 +56,7 @@ class TestStatisticsService(unittest.TestCase):
         self.assertEqual(len(top_players), 3)
         self.assertEqual(top_players[0].name, "Gretzky")  # Highest assists
         self.assertEqual(top_players[1].name, "Yzerman")
-        self.assertEqual(top_players[2].name, "Kurri")
+        self.assertEqual(top_players[2].name, "Lemieux")
 
 
     def test_top_players_exceeding_count(self):
