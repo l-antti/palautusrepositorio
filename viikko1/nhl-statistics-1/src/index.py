@@ -1,4 +1,5 @@
 from statistics_service import StatisticsService
+from player_reader import PlayerReader
 
 
 def main():
