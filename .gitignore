@@ -1,0 +1,10 @@
+__pycache__/
+.venv
+*.env
+*.log
+*.xml
+*.html
+*.tmp
+*.png
+
+!src/templates/**/*.html
