@@ -1,0 +1,14 @@
+1731863306021	geckodriver	INFO	Listening on 127.0.0.1:43297
+1731863306057	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50989" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJdHTay"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731863306617	Marionette	INFO	Marionette enabled
+1731863307712	Marionette	INFO	Listening on port 34517
+WebDriver BiDi listening on ws://127.0.0.1:50989
+Read port: 34517
+1731863308344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50989/devtools/browser/667e283c-d557-4e07-b4c3-82ca8cf9ef4e
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 918))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 918))
+1731863316079	Marionette	INFO	Stopped listening on port 34517

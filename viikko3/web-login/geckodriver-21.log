@@ -1,0 +1,16 @@
+1731863666978	geckodriver	INFO	Listening on 127.0.0.1:51901
+1731863667034	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "36253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekIDIGL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731863667625	Marionette	INFO	Marionette enabled
+1731863668732	Marionette	INFO	Listening on port 40817
+Read port: 40817
+WebDriver BiDi listening on ws://127.0.0.1:36253
+1731863669277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36253/devtools/browser/4cb09ac4-a23e-49fe-b079-2b6fe9261d16
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 918))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 918))
+1731863677748	Marionette	INFO	Stopped listening on port 40817
+[59198] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

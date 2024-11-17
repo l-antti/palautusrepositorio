@@ -1,0 +1,31 @@
+1731862417884	geckodriver	INFO	Listening on 127.0.0.1:41021
+1731862417926	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecPLrjo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731862418781	Marionette	INFO	Marionette enabled
+1731862420104	Marionette	INFO	Listening on port 37359
+WebDriver BiDi listening on ws://127.0.0.1:44103
+Read port: 37359
+1731862420769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:44103/devtools/browser/32799cdc-6c88-4edb-9720-7fdde51889d1
+1731862423241	Marionette	INFO	Stopped listening on port 37359
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.sys.mjs, line 34: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: WebExtensions: 
+  Message: [Exception... "#init: abandoning init due to shutting down"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://gre/modules/SearchService.sys.mjs :: #init :: line 1339"  data: no]
+  Stack:
+    #init@resource://gre/modules/SearchService.sys.mjs:1339:27
+
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1339: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1339: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1339: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.sys.mjs, line 112: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: (new RemoteSettingsWorkerError("Error: Can't import when we've started shutting down.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource://gre/modules/JSONFile.sys.mjs, line 172: Error: Data is not ready.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1478: TypeError: connection not specified in clone options.

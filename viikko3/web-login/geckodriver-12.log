@@ -1,0 +1,17 @@
+1731862664923	geckodriver	INFO	Listening on 127.0.0.1:47925
+1731862664958	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekh01tA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1731862665468	Marionette	INFO	Marionette enabled
+1731862666911	Marionette	INFO	Listening on port 43547
+WebDriver BiDi listening on ws://127.0.0.1:38627
+Read port: 43547
+1731862667613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:38627/devtools/browser/1b65c413-f1b6-42c1-8532-9f4297997ede
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 918))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:5001."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:5001."
+1731862683961	Marionette	INFO	Stopped listening on port 43547
+[53464] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
