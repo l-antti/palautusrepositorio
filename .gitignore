@@ -6,6 +6,8 @@ __pycache__/
 *.html
 *.tmp
 *.png
+.pytest_cache/
 .coverage
+htmlcov/
 
 !src/templates/**/*.html
