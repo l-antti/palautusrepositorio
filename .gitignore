@@ -6,5 +6,6 @@ __pycache__/
 *.html
 *.tmp
 *.png
+.coverage
 
 !src/templates/**/*.html
