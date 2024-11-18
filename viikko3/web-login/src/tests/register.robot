@@ -51,6 +51,32 @@ Register With Username That Is Already In Use
     Submit Registration
     Registration Should Fail With Message  Username already taken
     
+Login After Successful Registration
+    Set Username  validuser
+    Set Password  validpassword123
+    Set Password Confirmation  validpassword123
+    Submit Registration
+    Registration Should Succeed
+
+    Go To Login Page
+    Set Username  validuser
+    Set Password  validpassword123
+    Submit Credentials
+    Main Page Should Be Open
+
+Login After Failed Registration
+    Set Username  invaliduser
+    Set Password  validpassword123
+    Set Password Confirmation  invalidpassword456
+    Submit Registration
+    Registration Should Fail With Message  Passwords do not match
+
+    Go To Login Page
+    Set Username  invaliduser
+    Set Password  validpassword123
+    Submit Credentials
+    Login Should Fail With Message  Invalid username or password
+
 *** Keywords ***
 
 Set Username
@@ -74,6 +100,14 @@ Registration Should Succeed
 Registration Should Fail With Message
     [Arguments]  ${message}
     Registration Page Should Be Open
+    Page Should Contain  ${message}
+
+Submit Credentials
+    Click Button  Login
+
+Login Should Fail With Message
+    [Arguments]  ${message}
+    Login Page Should Be Open
     Page Should Contain  ${message}
 
 *** Keywords ***
