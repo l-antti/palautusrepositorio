@@ -32,6 +32,15 @@ Login Page Should Be Open
 Main Page Should Be Open
     Title Should Be  Ohtu Application main page
 
+Welcome Page Should Be Open
+    Title Should Be  Welcome to Ohtu Application!
+
+Registration Page Should Be Open
+    Title Should Be  Register
+
 Go To Login Page
     Go To  ${LOGIN_URL}
+
+Go To Register Page
+    Go To  ${REGISTER_URL}
 
